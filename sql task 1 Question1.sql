@@ -1,0 +1,2 @@
+create table employee_details(EmployeeID serial,Firstname varchar(50),Lastname varchar(50),Email varchar(100),
+PhoneNmuber bigint,HireDate DATE,salary decimal(10,2),DepartmentID int,Isactive boolean,jobtitle varchar(100));

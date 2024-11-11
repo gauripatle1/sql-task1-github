@@ -1,0 +1,11 @@
+--create table employee_details(
+--"FirstName" varchar,
+--"LastName" varchar,
+--"Email"	varchar,
+--"PhoneNumber" bigint,
+--"HireDate" date,
+--"Salary"	int,
+--"DepartmentID" int,
+--"isactive" boolean,
+--"jobtitle" varchar,
+copy employee_details from'D:/Employee_Details (1).csv'delimiter ','csv header;
